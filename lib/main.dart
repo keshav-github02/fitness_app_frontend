@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         '/goal': (context) => GoalPage(),
       },
       debugShowCheckedModeBanner: false,
-      home: ForgotPassword(),
+      home: OnBoardingScreen(),
     );
   }
 }
