@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
          '/weight': (context) => WeightPage(),
          '/activity': (context) => ActivityLevelPage(),
         '/goal': (context) => GoalPage(),
+
       },
       debugShowCheckedModeBanner: false,
       home: OnBoardingScreen(),
