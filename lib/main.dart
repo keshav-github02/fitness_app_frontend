@@ -5,6 +5,7 @@ import 'package:fitness_app_live/screens/activityLevelScreen/activityLevelScreen
 import 'package:fitness_app_live/screens/ageScreen/ageScreen.dart';
 import 'package:fitness_app_live/screens/genderScreen/genderScreen.dart';
 import 'package:fitness_app_live/screens/heightScreen/heightScreen.dart';
+import 'package:fitness_app_live/screens/homeScreens/homeScreen.dart';
 import 'package:fitness_app_live/screens/onBoardingScreen/onBoardingScreen.dart';
 import 'package:fitness_app_live/screens/weightScreen/weightScreen.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
 
       },
       debugShowCheckedModeBanner: false,
-      home: SignUp(),
+      home: HomePage(),
     );
   }
 }
