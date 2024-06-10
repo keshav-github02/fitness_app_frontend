@@ -23,7 +23,7 @@ class ProfilePage extends StatelessWidget {
       body: Padding(
         padding: EdgeInsets.symmetric(
           horizontal: MediaQuery.of(context).size.width * 0.055,
-          vertical: MediaQuery.of(context).size.height * 0.02,
+          vertical: MediaQuery.of(context).size.height * 0.015,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -70,10 +70,10 @@ class ProfilePage extends StatelessWidget {
               ],
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             const Text(
-              'Amogh \nSaxena',
+              'Keshav \nAgarwal',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 35,
@@ -81,7 +81,7 @@ class ProfilePage extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 10,
             ),
             _buildDivider(),
             IconRow(
