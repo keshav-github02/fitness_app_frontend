@@ -1,3 +1,4 @@
+import 'package:fitness_app_live/screens/Login%20signUp/LoginSignup.dart';
 import 'package:flutter/material.dart';
 
 import '../../models/DetailPageButton.dart';
@@ -52,6 +53,7 @@ class _ActivityLevelPageState extends State<ActivityLevelPage> {
             DetailPageButton(
               text: 'Next',
               onTap: () {
+                SignUp();
 
               },
               showBackButton: true,
